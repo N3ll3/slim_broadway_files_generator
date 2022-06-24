@@ -24,7 +24,7 @@ var generateCmd = &cobra.Command{
 	Use:   "generate <file> <name>",
 	Short: "Genere les fichiers pour slim_bridge",
 	Long: `Genere Action, Command, Event, All 
-	exemple : generator generate action test --appPath={} --basePath={} --domain={} --eventAction={} --params="param1, param2, param3,..."
+	exemple : generator generate action test --appPath={} --basePath={} --domain={} --eventName={} --params="param1, param2, param3,..."
 	`,
 	Run: func(cmd *cobra.Command, args []string) {
 		fmt.Printf("%v", args) 
