@@ -17,7 +17,7 @@ func generateCommand(args Args) {
 		fmt.Println("Le fichier " + file + " existe deja.")
 	}
 
-	params := strings.ReplaceAll(args.Params, "-", ";\n")+";"
+	params := "    public "+strings.ReplaceAll(args.Params, "-", ";\n    public")+";"
 	GenerateFiles(template, file , args, params)
 }
 
