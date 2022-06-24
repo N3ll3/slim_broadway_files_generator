@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Macompta\Api{%BASE_PATH%}\Domain\{%DOMAIN%}\Command;
+namespace Macompta\Api\{%BASE_PATH%}\Domain\{%DOMAIN%}\Command;
 
 
 use Macompta\Broadway\Bridge\CommandHandling\Command;
