@@ -16,7 +16,7 @@ func generateEvent(args Args) {
 	if Exist(file) {
 		fmt.Println("Le fichier " + file + " existe deja.")
 	}
-	params := "    public "+strings.ReplaceAll(args.Params, "-", ";\n    public")+";"
+	params := "    public "+strings.ReplaceAll(args.Params, "-", ";\n public")+";"
 	GenerateFiles(template, file, args, params)
 }
 
