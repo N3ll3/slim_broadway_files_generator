@@ -1,13 +1,13 @@
 <?php
 declare(strict_types=1);
 
-namespace Macompta\Api{%BASE_PATH%}\Domain\{%DOMAIN%}\Command;
+namespace Macompta\Api\{%BASE_PATH%}\Domain\{%DOMAIN%}\Command;
 
 
 use Macompta\I18n\I18n;
 use Psr\Log\LoggerInterface;
 
-use Macompta\Api{%BASE_PATH%}\Domain\{%DOMAIN%}\Command\{%NAME%}Command;
+use Macompta\Api\{%BASE_PATH%}\Domain\{%DOMAIN%}\Command\{%NAME%}Command;
 
 
 class {%NAME%}CommandHandler
