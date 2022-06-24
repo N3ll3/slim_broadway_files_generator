@@ -14,8 +14,8 @@
 |--|--|--|--|--|
 |  slimfilesgenerator| generate| action | PrefixDeMaClass | --appPath=chemin/absolu/api --basePath=base/path --domain=Domain|
 |  slimfilesgenerator| generate| command | PrefixDeMaClass | --appPath=chemin/absolu/api --basePath=base/path --domain=Domain --params="param1, param2, param3"|
-|  slimfilesgenerator| generate| event | PrefixDeMaClass | --appPath=chemin/absolu/api --basePath=base/path --domain=Domain --params="param1, param2, param3" --eventAction=""|
-|  slimfilesgenerator| generate| all | PrefixDeMaClass | --appPath=chemin/absolu/api --basePath=base/path --domain=Domain --params="param1, param2, param3" --eventAction=""|
+|  slimfilesgenerator| generate| event | PrefixDeMaClass | --appPath=chemin/absolu/api --basePath=base/path --domain=Domain --params="param1, param2, param3" --eventName=""|
+|  slimfilesgenerator| generate| all | PrefixDeMaClass | --appPath=chemin/absolu/api --basePath=base/path --domain=Domain --params="param1, param2, param3" --eventName=""|
 
 NB : echapper les slash et antislash
 
