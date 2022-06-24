@@ -7,7 +7,8 @@ use Psr\Log\LoggerInterface;
 use \Slim\Http\Response as Response;
 use Macompta\Slim\Bridge\Application\Actions\Action;
 use Macompta\Broadway\Bridge\CommandHandling\CommandBus;
-use Macompta\Api\Admin\Abonnement\Domain\Abonnements\Command\{%NAME%}Command;
+
+use Macompta\Api\{%BASE_PATH%}\Domain\{%DOMAIN%}\Command\{%NAME%}Command;
 
 
 class {%NAME%}Action extends Action
