@@ -28,19 +28,20 @@ go install slimfilesgenerator
 
 ## Prérequis
 
-Lancer la ligne de commande dans un dossier qui dispose d'un dossier 'templates' avec les fichiers suivants présents :
+Lancer la ligne de commande dans un dossier qui dispose lui-même d'un dossier 'templates' avec les fichiers suivants présents :
+
 * Action.php
 * Command.php
 * CommandHandler.php
 * Event.php
 
 Les variables dans les templates sont :
-Dans un dossier slim_broadway_files_generator avec obligatoirement un dossier templates
-  {%BASE_PATH%} => --BasePath
-	{%DOMAIN%} => --domain
-	{%PARAMS%} => --params
-  {%EVENT_NAME%} => --EventName
-	{%NAME%} => {arguments} PrefixDeMaClass
+
+  * {%BASE_PATH%} => --BasePath
+  * {%DOMAIN%} => --domain
+  * {%PARAMS%} => --params
+  * {%EVENT_NAME%} => --EventName
+  * {%NAME%} => {arguments} PrefixDeMaClass
 	
 }
 
